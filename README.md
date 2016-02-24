@@ -1,7 +1,7 @@
-## OneDriveForBusiness Setup Powershell Cmdlets
+## OneDriveForBusiness Setup Powershell Cmdlets ##
 Tenant Admin Powershell Cmdlets to trigger the creation of users' OneDrives and to grant tenant administrators administrative access to these sites.
 
-###Before you begin
+### Before you begin ###
 Before you begin running the Scripts, review the following information about prerequisites:
 
 - [Set up the SharePoint Online Management Shell environment](http://go.microsoft.com/fwlink/p/?LinkId=506693)
@@ -12,7 +12,7 @@ Also verify the following:
 - The tenant admin is a Global Administrator in Office 365 for enterprises.
 - The tenant admin is a member of the Administrators group on the server on which you are running the Windows PowerShell script.
 
-###PreSetupOdbSites.ps1
+### PreSetupOdbSites.ps1 ###
 The PowerShell script contains cmdlets that will help Tenant Admins trigger the creation of the users' One Drive for business and grant them access to users OneDrive For Business Sites. 
 
 They can be ran in the following sequence.
@@ -29,7 +29,7 @@ Add users for their OneDrive for Business Sites to be created. That can take up 
 
 Grant-TenantAdminPermissionsToOdbSites cmdlet grants the TenantAdmin administrative permissions to the OneDrive sites of some users.
 
-###Add-UsersForOdbSitesCreation cmdlet
+### Add-UsersForOdbSitesCreation cmdlet ####
 Add-UsersForMySitesCreation cmdlet can be used to trigger the creation of Users personal/MY sites. The users’ emails need to be separated by commas. You can pass in a maximum of 200 users. The creation can take up to one day to complete.
 
 Example:
@@ -43,7 +43,7 @@ Hash table with Status and the Failures of User emails separated by commas
         Failures                                                                                                                                                                                                                                                         
         Status                         Add-UsersForOdbSitesCreation finished executing. Failures: [0]  
 
-###Grant-TenantAdminPermissionsToOdbSites
+### Grant-TenantAdminPermissionsToOdbSites ####
 Grant-TenantAdminPermissionsToOdbSites cmdlet grants the TenantAdmin administrative permissions to the personal sites of some users. The users’ emails need to be separated by commas. You can pass in a maximum of 200 users. 
 
 Example:
