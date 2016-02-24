@@ -17,9 +17,8 @@ The PowerShell script contains cmdlets that will help Tenant Admins trigger the 
 
 They can be ran in the following sequence.
 
-1- Make the following functions available to the power shell
+1- Make the following cmdlets available to the power shell by loading the script
 
-Run the script for example as follows: 
     . C:\powershell\PreSetupOdbSites.ps1
 
 2- Add-UsersForOdbSitesCreation cmdlet
@@ -34,9 +33,11 @@ Grant-TenantAdminPermissionsToOdbSites cmdlet grants the TenantAdmin administrat
 Add-UsersForMySitesCreation cmdlet can be used to trigger the creation of Users personal/MY sites. The users’ emails need to be separated by commas. You can pass in a maximum of 200 users. The creation can take up to one day to complete.
 
 Example:
+
 Add-UsersForOdbSitesCreation -userName "admin@contoso.onmicrosoft.com" -password "December2015" -adminSiteUrl "https://contoso-admin.sharepoint.com" -userIds "user1@contoso.onmicrosoft.com,user2@contoso.onmicrosoft.com"
     
 Output:
+
 Hash table with Status and the Failures of User emails separated by commas
 
         Name                           Value                                                                                                                                                                                                                             
@@ -48,9 +49,11 @@ Hash table with Status and the Failures of User emails separated by commas
 Grant-TenantAdminPermissionsToOdbSites cmdlet grants the TenantAdmin administrative permissions to the personal sites of some users. The users’ emails need to be separated by commas. You can pass in a maximum of 200 users. 
 
 Example:
+
 Grant-TenantAdminPermissionsToOdbSites -userName "admin@contoso.onmicrosoft.com" -password "December2015" -adminSiteUrl "https://contoso-admin.sharepoint.com" -userIds "user1@contoso.onmicrosoft.com,user2@contoso.onmicrosoft.com"
     
-Output: 
+Output:
+
 Hash table with Status and the Failures of User emails separated by commas
 
         Name                           Value                                                                                                                                                                                                                             
