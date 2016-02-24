@@ -17,9 +17,10 @@ The PowerShell script contains cmdlets that will help Tenant Admins trigger the 
 
 They can be ran in the following sequence.
 
-1- Make the following functions available to the power shell, such as
+1- Make the following functions available to the power shell
 
-. C:\powershell\PreSetupOdbSites.ps1
+Run the script for example as follows: 
+    . C:\powershell\PreSetupOdbSites.ps1
 
 2- Add-UsersForOdbSitesCreation cmdlet
 
