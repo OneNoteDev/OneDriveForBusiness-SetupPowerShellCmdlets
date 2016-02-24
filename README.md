@@ -21,7 +21,7 @@ The cmdlets are as follows:
 
 	1- Add-UsersForOdbSitesCreation cmdlet
 	
-	Add users for OneDrive for Business site creation
+	Add users for OneDrive for Business site creation.
 	
 	2- Grant-TenantAdminPermissionsToOdbSites cmdlet
 	    
