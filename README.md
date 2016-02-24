@@ -1,7 +1,7 @@
-## OneDriveForBusiness Setup Powershell Cmdlets ##
-Tenant Admin Powershell Cmdlets trigger the creation of OneDrive for Business sites and grant tenant administrators administrative access to these sites.
+## OneDrive for Business Setup Powershell Cmdlets ##
+Tenant Admin Powershell Cmdlets to trigger the creation of OneDrive for Business sites and grant tenant administrators administrative access to these sites.
 
-### Before you begin ###
+### Prerequisites ###
 Before you begin running the Scripts, review the following information about prerequisites:
 
 - [Set up the SharePoint Online Management Shell environment](http://go.microsoft.com/fwlink/p/?LinkId=506693)
@@ -28,7 +28,7 @@ The cmdlets are as follows:
 	Grants the tenant administrators administrative permissions to the OneDrive for Business sites.
 
 ### Add-UsersForOdbSitesCreation cmdlet ####
-Add-UsersForOdbSitesCreation cmdlet can be used to trigger the creation of OneDrive for Business sites. The users’ emails need to be separated by commas. You can pass in a maximum of 200 users. The creation can take up to one day to complete.
+Add-UsersForOdbSitesCreation cmdlet can be used to trigger the creation of users' OneDrive for Business sites. The users’ emails need to be separated by commas. You can pass in a maximum of 200 users. The creation can take up to one day to complete.
 
 ***Example:***
 
@@ -45,7 +45,7 @@ Hash table with Status and the Failures of User emails separated by commas
 
 ### Grant-TenantAdminPermissionsToOdbSites ####
 
-Grant-TenantAdminPermissionsToOdbSites cmdlet grants the TenantAdmin administrative permissions to the OneDrive for Business sites. The users’ emails need to be separated by commas. You can pass in a maximum of 200 users. 
+Grant-TenantAdminPermissionsToOdbSites cmdlet grants the Tenant Admin administrative permissions to the users' OneDrive for Business sites. The users’ emails need to be separated by commas. You can pass in a maximum of 200 users. 
 
 ***Example:***
 
