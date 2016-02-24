@@ -1,5 +1,5 @@
 ## OneDriveForBusiness Setup Powershell Cmdlets ##
-Tenant Admin Powershell Cmdlets to trigger the creation of OneDrive for Business sites and to grant tenant administrators administrative access to these sites.
+Tenant Admin Powershell Cmdlets trigger the creation of OneDrive for Business sites and grant tenant administrators administrative access to these sites.
 
 ### Before you begin ###
 Before you begin running the Scripts, review the following information about prerequisites:
