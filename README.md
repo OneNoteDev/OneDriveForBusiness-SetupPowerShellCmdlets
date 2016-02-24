@@ -10,7 +10,7 @@ Also verify the following:
 *The tenant admin is a Global Administrator in Office 365 for enterprises.
 *The tenant admin is a member of the Administrators group on the server on which you are running the Windows PowerShell script.
 
-PreSetupOdbSites.ps1
+###PreSetupOdbSites.ps1
 These cmdlets will help Tenant Admins create the users' One Drive for business. The following cmdlets need to run:
 
 1- Make the following functions available to the power shell, such as
