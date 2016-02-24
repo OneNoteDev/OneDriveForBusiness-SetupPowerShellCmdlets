@@ -3,10 +3,8 @@ Tenant Admin Powershell Cmdlets to trigger the creation of users' OneDrives and 
 
 ###Before you begin
 Before you begin running the Scripts, review the following information about prerequisites:
-*Set up the SharePoint Online Management Shell environment.
-http://go.microsoft.com/fwlink/p/?LinkId=506693
-*Download and install the SharePoint Online Client Components SDK.
-http://go.microsoft.com/fwlink/p/?LinkId=506692
+*[Set up the SharePoint Online Management Shell environment](http://go.microsoft.com/fwlink/p/?LinkId=506693)
+*[Download and install the SharePoint Online Client Components SDK](http://go.microsoft.com/fwlink/p/?LinkId=506692)
 
 Also verify the following:
 *The tenant admin is a Global Administrator in Office 365 for enterprises.
