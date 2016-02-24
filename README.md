@@ -26,7 +26,7 @@ Add users for their OneDrive for Business Sites to be created. That can take up 
 3- Grant-TenantAdminPermissionsToOdbSites cmdlet
 Grant-TenantAdminPermissionsToOdbSites cmdlet grants the TenantAdmin administrative permissions to the OneDrive sites of some users.
 
-##Add-UsersForOdbSitesCreation cmdlet
+###Add-UsersForOdbSitesCreation cmdlet
 Add-UsersForMySitesCreation cmdlet can be used to trigger the creation of Users personal/MY sites. The users’ emails need to be separated by commas. You can pass in a maximum of 200 users. The creation can take up to one day to complete.
 
 Example:
@@ -40,7 +40,7 @@ Hash table with Status and the Failures of User emails separated by commas
         Failures                                                                                                                                                                                                                                                         
         Status                         Add-UsersForOdbSitesCreation finished executing. Failures: [0]  
 
-##Grant-TenantAdminPermissionsToOdbSites
+###Grant-TenantAdminPermissionsToOdbSites
 Grant-TenantAdminPermissionsToOdbSites cmdlet grants the TenantAdmin administrative permissions to the personal sites of some users. The users’ emails need to be separated by commas. You can pass in a maximum of 200 users. 
 
 Example:
