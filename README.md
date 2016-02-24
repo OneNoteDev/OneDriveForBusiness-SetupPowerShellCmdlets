@@ -19,16 +19,16 @@ The PowerShell script contains the following cmdlets that can be made available 
 
 The cmdlets are as follows:
 
-1- Add-UsersForOdbSitesCreation cmdlet
-
-Add users for OneDrive for Business site creation
-
-2- Grant-TenantAdminPermissionsToOdbSites cmdlet
-    
-Grant-TenantAdminPermissionsToOdbSites cmdlet grants the TenantAdmin administrative permissions to the OneDrive sites.
+	1- Add-UsersForOdbSitesCreation cmdlet
+	
+	Add users for OneDrive for Business site creation
+	
+	2- Grant-TenantAdminPermissionsToOdbSites cmdlet
+	    
+	Grants the tenant administrators administrative permissions to the OneDrive for Business sites.
 
 ### Add-UsersForOdbSitesCreation cmdlet ####
-    Add-UsersForMySitesCreation cmdlet can be used to trigger the creation of Users personal/MY sites. The users’ emails need to be separated by commas. You can pass in a maximum of 200 users. The creation can take up to one day to complete.
+Add-UsersForOdbSitesCreation cmdlet can be used to trigger the creation of OneDrive for Business sites. The users’ emails need to be separated by commas. You can pass in a maximum of 200 users. The creation can take up to one day to complete.
 
 ***Example:***
 
@@ -44,7 +44,8 @@ Hash table with Status and the Failures of User emails separated by commas
         Status                         Add-UsersForOdbSitesCreation finished executing. Failures: [0]  
 
 ### Grant-TenantAdminPermissionsToOdbSites ####
-Grant-TenantAdminPermissionsToOdbSites cmdlet grants the TenantAdmin administrative permissions to the personal sites of some users. The users’ emails need to be separated by commas. You can pass in a maximum of 200 users. 
+
+Grant-TenantAdminPermissionsToOdbSites cmdlet grants the TenantAdmin administrative permissions to the OneDrive for Business sites. The users’ emails need to be separated by commas. You can pass in a maximum of 200 users. 
 
 ***Example:***
 
@@ -52,7 +53,7 @@ Grant-TenantAdminPermissionsToOdbSites cmdlet grants the TenantAdmin administrat
     
 ***Output:***
 
-Hash table with Status and the Failures of User emails separated by commas
+Hash table with Status and the Failures of user emails separated by commas
 
         Name                           Value                                                                                                                                                                                                                             
         ----                           -----                                                                                                                                                                                                                             
