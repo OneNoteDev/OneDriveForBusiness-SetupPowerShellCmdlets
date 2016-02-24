@@ -12,18 +12,21 @@ Also verify the following:
 - The tenant admin is a Global Administrator in Office 365 for enterprises.
 - The tenant admin is a member of the Administrators group on the server on which you are running the Windows PowerShell script.
 
-####PreSetupOdbSites.ps1
+###PreSetupOdbSites.ps1
 The PowerShell script contains cmdlets that will help Tenant Admins trigger the creation of the users' One Drive for business and grant them access to users OneDrive For Business Sites. 
 
 They can be ran in the following sequence.
 
 1- Make the following functions available to the power shell, such as
+
 . C:\powershell\PreSetupOdbSites.ps1
 
 2- Add-UsersForOdbSitesCreation cmdlet
+
 Add users for their OneDrive for Business Sites to be created. That can take up to one day.
 
 3- Grant-TenantAdminPermissionsToOdbSites cmdlet
+
 Grant-TenantAdminPermissionsToOdbSites cmdlet grants the TenantAdmin administrative permissions to the OneDrive sites of some users.
 
 ###Add-UsersForOdbSitesCreation cmdlet
