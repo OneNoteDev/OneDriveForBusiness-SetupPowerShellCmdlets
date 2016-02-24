@@ -30,7 +30,7 @@ Add-UsersForMySitesCreation cmdlet can be used to trigger the creation of Users 
 
 Example:
 
-Add-UsersForOdbSitesCreation -userName "admin@contoso.onmicrosoft.com" -password "December2015" -adminSiteUrl "https://contoso-admin.sharepoint.com" -userIds "user1@contoso.onmicrosoft.com,user2@contoso.onmicrosoft.com"
+    Add-UsersForOdbSitesCreation -userName "admin@contoso.onmicrosoft.com" -password "December2015" -adminSiteUrl "https://contoso-admin.sharepoint.com" -userIds "user1@contoso.onmicrosoft.com,user2@contoso.onmicrosoft.com"
     
 Output:
 
@@ -46,7 +46,7 @@ Grant-TenantAdminPermissionsToOdbSites cmdlet grants the TenantAdmin administrat
 
 Example:
 
-Grant-TenantAdminPermissionsToOdbSites -userName "admin@contoso.onmicrosoft.com" -password "December2015" -adminSiteUrl "https://contoso-admin.sharepoint.com" -userIds "user1@contoso.onmicrosoft.com,user2@contoso.onmicrosoft.com"
+    Grant-TenantAdminPermissionsToOdbSites -userName "admin@contoso.onmicrosoft.com" -password "December2015" -adminSiteUrl "https://contoso-admin.sharepoint.com" -userIds "user1@contoso.onmicrosoft.com,user2@contoso.onmicrosoft.com"
     
 Output:
 
