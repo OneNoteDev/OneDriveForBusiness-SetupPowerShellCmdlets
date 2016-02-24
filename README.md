@@ -36,7 +36,7 @@ Add-UsersForOdbSitesCreation cmdlet can be used to trigger the creation of users
     
 ***Output:***
 
-Hash table with Status and the Failures of User emails separated by commas
+Hash table with Status and the Failures of users' emails separated by commas
 
         Name                           Value                                                                                                                                                                                                                             
         ----                           -----                                                                                                                                                                                                                             
@@ -53,7 +53,7 @@ Grant-TenantAdminPermissionsToOdbSites cmdlet grants the Tenant Admin administra
     
 ***Output:***
 
-Hash table with Status and the Failures of user emails separated by commas
+Hash table with Status and the Failures of users' emails separated by commas
 
         Name                           Value                                                                                                                                                                                                                             
         ----                           -----                                                                                                                                                                                                                             
