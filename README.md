@@ -1,6 +1,6 @@
 ## OneDrive for Business Setup Powershell Cmdlets ##
 
-> Created by Microsoft Corporation, 2016. Provided as-is without warranty. Trademarks mentioned here are the property of their owners.
+Created by Microsoft Corporation, 2016. Provided as-is without warranty. Trademarks mentioned here are the property of their owners.
 
 Tenant Admin Powershell Cmdlets to trigger the creation of OneDrive for Business sites and grant tenant administrators administrative access to these sites.
 
